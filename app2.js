@@ -41,11 +41,11 @@ function getWeather(city) {
 
 function displayWeather(data) {
     const weatherInfo = document.getElementById('weatherInfo');
-    weatherInfo.innerHTML = `
+    weatherInfo.innerHTML = `<div id="allInfo">
         <h2>${data.name}, ${data.sys.country}</h2>
         <h1>${data.main.temp}°C</h1>
         <h2>WindSpeed : ${data.wind.speed}m/s</h2>
-    
+    </div>
     `;
 
     // Weather description
