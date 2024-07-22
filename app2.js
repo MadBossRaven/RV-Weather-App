@@ -6,6 +6,7 @@ const comic = document.querySelector('.comic-bubble-below')
 const overallBtn = document.querySelector('#overallBtn');
 const header = document.querySelector('.container');
 const backtoStart = document.querySelector('#backtostart');
+const body = document.body;
 
 
 document.getElementById('getWeather').addEventListener('click', function() {
@@ -653,7 +654,8 @@ nextBtn.addEventListener('click', () => {
 
 function overallDisplay(data){
     overallBtn.addEventListener('click', () => {
-        backtoStart.style.display = "block"
+        body.style.backgroundImage = "linear-gradient(blue, rgb(72, 90, 192))";
+        backtoStart.style.display = "block";
         overallBtn.style.display = "none";
         header.style.display = "none";
         screen.style.display = "none";
