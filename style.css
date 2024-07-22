@@ -27,6 +27,8 @@ input, button {
 }
 
 #temperature {
+  color: black;
+  background-color: white;
   margin-top: 10%;
   margin-left: 35%;
   margin-right: 35%;
@@ -41,6 +43,8 @@ input, button {
 
 
 #windSpeed {
+  color: black;
+  background-color: white;
   margin-top: 3%;
   margin-left: 35%;
   margin-right: 35%;
@@ -53,6 +57,8 @@ input, button {
 
 
 #rain {
+  color: black;
+  background-color: white;
   margin-top: 3%;
   margin-left: 10%;
   display: flex;
