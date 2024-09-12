@@ -19,7 +19,7 @@ document.getElementById('getWeather').addEventListener('click', function() {
 });
 
 function getWeather(city) {
-    const apiKey = ''; // Replace with your actual API key
+    const apiKey = process.env.API_KEY; // Replace with your actual API key
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     fetch(apiUrl)
