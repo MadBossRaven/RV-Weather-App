@@ -16,6 +16,6 @@ jobs:
         run: echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
 
       - name: Run build
-        run: |
+        run: echo "No build step required"
           # Replace this with your actual build command, if any
           echo "Building the project..."
